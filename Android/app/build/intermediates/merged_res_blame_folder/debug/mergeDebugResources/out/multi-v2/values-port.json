@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.cookit.app-mergeDebugResources-64:/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/stemphonyx/.gradle/caches/transforms-4/ea1f8ecc09bad2f75ab1a1105a512fd0/transformed/appcompat-1.6.1/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}
