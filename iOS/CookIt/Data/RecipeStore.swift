@@ -41,7 +41,7 @@ private extension SampleRecipes {
                 Recipe.Ingredient(name: "fresh mozzarella", unit: "g", quantity: 120),
                 Recipe.Ingredient(name: "fresh basil leaves"),
                 Recipe.Ingredient(name: "olive oil", unit: "tbsp", quantity: 1),
-                Recipe.Ingredient(name: "Pinch of salt")
+                Recipe.Ingredient(name: "Pinch of saslt")
             ],
             steps: [
                 "Preheat oven to 250ºC with a pizza stone if available.",
