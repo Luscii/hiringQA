@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_background">#FFFBFE</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primary">#F24D51</color>
+    <color name="md_theme_secondary">#4CAF50</color>
+    <string name="app_name">Cook it!</string>
+    <style name="Theme.CookIt" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/md_theme_primary</item>
+    </style>
+</resources>

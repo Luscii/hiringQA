@@ -1,0 +1,12 @@
+#!/bin/sh
+
+DIR="$(cd "$(dirname "$0")" && pwd)"
+APP_BASE_NAME=$(basename "$0")
+DEFAULT_JVM_OPTS="-Xmx64m"
+
+if [ -z "$JAVA_HOME" ]; then
+  echo "Error: JAVA_HOME is not set." >&2
+  exit 1
+fi
+
+exec "$JAVA_HOME/bin/java" ${DEFAULT_JVM_OPTS} -jar "$DIR/gradle/wrapper/gradle-wrapper.jar" "$@"
