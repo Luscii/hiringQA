@@ -5,9 +5,9 @@ Jetpack Compose implementation of the Cook it! recipes tester application. The A
 ## Features
 
 - Recipe list with search, duration, difficulty badges, and empty state.
-- Detail screen with hero image placeholder, adjustable servings (1–20, capped at 10), ingredient scaling, preparation steps, and feedback dialog (1–5 stars).
+- Detail screen with hero image placeholder, adjustable servings (1–20)
+- Ingredient scaling, preparation steps, and feedback dialog (1–5 stars).
 - Ratings stored in-memory per session.
-- Last recipe intentionally crashes when opened to ensure candidates explore every entry.
 
 ## Getting Started
 
@@ -31,13 +31,6 @@ Each sample recipe references an `imageName` (same list as the iOS app):
 `margherita`, `risotto`, `quinoa`, `lentil_soup`, `shrimp_pasta`, `green_curry`, `overnight_oats`, `roast_chicken`, `buddha_bowl`, `lava_cake`, `caprese_avocado`, `bbq_jackfruit`, `slow_cooker_chili`
 
 To replace the gradient placeholder, drop PNGs/JPEGs into `app/src/main/res/drawable/` using the exact names. Compose automatically selects them if present.
-
-## Known Quirks (intentional)
-
-- No recipe images load unless you add the assets. You should see empty image placeholders when opening details.
-- Exactly 13 recipes ship with the app; opening the final “Mystery Chef Special” crashes the app on purpose.
-- Margherita recipe contains the deliberate typo `Pinch of saalt`.
-- Servings picker stops scaling ingredients beyond 10 people even if you pick higher numbers.
 
 ## Tests
 
